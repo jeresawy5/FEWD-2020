@@ -4,6 +4,7 @@ html{box-sizing: border-box; }*,*:before,*:after {box-sizing:inherit;}
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
+    flex-grow: inherit;
 }
 .boxes{
     height: 200px;
