@@ -20,4 +20,5 @@ html{box-sizing: border-box; }*,*:before,*:after {box-sizing:inherit;}
     border-radius: 50%;
     height: 100%;
     width: 50%;
+    box-shadow: 5px 5px 20px black;
 }
