@@ -8,6 +8,7 @@ html{box-sizing: border-box; }*,*:before,*:after {box-sizing:inherit;}
 }
 .boxes{
     height: 200px;
+    padding: 10px;
     width: 33.33333333333%;
     border: 3px solid black;
     background-color: darkgrey;
