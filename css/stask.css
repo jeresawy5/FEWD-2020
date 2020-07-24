@@ -1,6 +1,7 @@
 html{box-sizing: border-box; }*,*:before,*:after {box-sizing:inherit;}
 
 .box{
+    margin: 15px;
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
@@ -21,4 +22,14 @@ html{box-sizing: border-box; }*,*:before,*:after {box-sizing:inherit;}
     height: 100%;
     width: 50%;
     box-shadow: 5px 5px 20px black;
+    display: flex;
+    justify-content: center;
+}
+.boxes:hover{
+    box-shadow: 40px 0px 100px black;
+    transition: all 300ms ease-in-out;
+}
+.initials{
+    align-self: center;
+    font-size: 50px;
 }
