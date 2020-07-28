@@ -46,5 +46,28 @@ body{
     display: flex;
     flex-direction: column;
     align-items:center;
-    background-color: #fff;
+}
+.info{
+    list-style: none;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightgrey;
+    margin: 10px;
+}
+.resp{
+    display: flex;
+    justify-content: center;
+}
+.resume a{
+    color: black;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 20%;
+    text-decoration: none;
+    padding: 20px;
+}
+.resume a:hover{
+    color: limegreen;
+    background-color: blue;
+    transition: all 300ms ease-in-out;
 }
